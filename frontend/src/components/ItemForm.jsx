@@ -52,8 +52,7 @@ function ItemForm({ initialValues, onSubmit, submitText }) {
         onChange={handleChange}
         required
       />
-      <label>Color</label>
-      <input name="color" value={formData.color} onChange={handleChange} required />
+      
 
       <label>Description</label>
       <textarea
