@@ -10,8 +10,8 @@ function ItemCard({ item, onDelete }) {
       />
       <h3>{item.name}</h3>
       <p><strong>Category:</strong> {item.category}</p>
-      <p><strong>Price:</strong> ${item.price}</p>
-      <p><strong>Code:</strong> ${item.code}</p>
+      <p><strong>Color:</strong> {item.color}</p>
+  
       <p>{item.description}</p>
 
       <div className="card-actions">

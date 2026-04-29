@@ -17,14 +17,15 @@ const itemSchema = new mongoose.Schema(
       required: [true, "Price is required"],
       min: [0, "Price cannot be negative"],
     },
-    code: {
-      type: Number,
-      required: [true, "Code is required"],
-      min: [0, "Code cannot be negative"],
-    },
+   
     description: {
       type: String,
       required: [true, "Description is required"],
+      trim: true,
+    },
+    color: {
+      type: String,
+      required: [true, "Color is required"],
       trim: true,
     },
     imageUrl: {
