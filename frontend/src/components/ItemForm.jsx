@@ -8,7 +8,7 @@ function ItemForm({ initialValues, onSubmit, submitText }) {
       price: "",
       description: "",
       imageUrl: "",
-      color: "",
+      
       
     }
   );
@@ -44,14 +44,7 @@ function ItemForm({ initialValues, onSubmit, submitText }) {
         onChange={handleChange}
         required
       />
-      <label>Color</label>
-      <textarea
-        name="color"
-        rows="4"
-        value={formData.color}
-        onChange={handleChange}
-        required
-      />
+      
       
 
       <label>Description</label>
